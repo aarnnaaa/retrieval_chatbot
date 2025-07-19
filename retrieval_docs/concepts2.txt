@@ -1,0 +1,164 @@
+=== 
+Question: What is HTML?
+
+Answer: 
+HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages. It describes the elements on a webpage—such as headings, paragraphs, images, links, lists, and forms—using a system of tags. HTML is not a programming language; instead, it is a declarative language that tells the browser how to display content. It forms the backbone of all web content and is often used in combination with CSS (for styling) and JavaScript (for interactivity).
+
+=== 
+Question: What are HTML tags?
+
+Answer: 
+HTML tags are special keywords enclosed in angle brackets (e.g., <p>, <h1>, <img>) that define the elements of an HTML document. Tags typically come in pairs: an opening tag (e.g., <p>) and a closing tag (e.g., </p>), with content placed between them. Some tags, like <img> and <br>, are self-closing. Tags describe the structure and type of content, such as text, headings, images, lists, or links.
+
+=== 
+Question: What does the <h1> tag do?
+
+Answer: 
+The <h1> tag defines the top-level heading on an HTML page. It is typically used for the main title and is the most important heading in terms of SEO and document hierarchy. Browsers display <h1> text larger and bolder than regular text. HTML supports six levels of headings: <h1> through <h6>, with decreasing importance and size.
+
+=== 
+Question: What is the difference between HTML and CSS?
+
+Answer: 
+HTML (HyperText Markup Language) structures the content of a webpage using elements and tags, while CSS (Cascading Style Sheets) controls the visual presentation and layout of that content. HTML defines the structure and semantics (e.g., headings, paragraphs), and CSS styles it (e.g., colors, fonts, spacing).
+
+=== 
+Question: What are HTML attributes?
+
+Answer: 
+Attributes provide additional information about HTML elements. They are included in the opening tag and follow a name="value" format. Common attributes include id, class, src, href, and alt. For example: <img src="logo.png" alt="Logo">.
+
+=== 
+Question: What is the <a> tag used for?
+
+Answer: 
+The <a> (anchor) tag is used to create hyperlinks. It requires the href attribute to specify the destination URL. Clicking the link takes the user to another webpage or section of the current page. Example: <a href="https://example.com">Visit Site</a>.
+
+=== 
+Question: What is semantic HTML?
+
+Answer: 
+Semantic HTML uses meaningful tags that describe the content inside them, such as <article>, <section>, <nav>, <aside>, <header>, and <footer>. These elements improve accessibility, SEO, and code readability by conveying structure and meaning to browsers and screen readers.
+
+=== 
+Question: What is responsive design in HTML?
+
+Answer: 
+Responsive design ensures web pages display well on different screen sizes and devices. It typically uses the viewport meta tag, flexible layouts, and media queries. Example: <meta name="viewport" content="width=device-width, initial-scale=1.0"> helps scale content correctly on mobile devices.
+
+=== 
+Question: What is the <form> tag?
+
+Answer: 
+The <form> tag is used to create interactive forms to collect user input. It usually includes input fields, checkboxes, radio buttons, submit buttons, etc. Attributes like action and method determine where and how the form submits data.
+
+=== 
+Question: What is the difference between id and class?
+
+Answer: 
+The id attribute assigns a unique identifier to a single HTML element, while class can be shared among multiple elements. Use id for single-item styling or scripting, and class for styling groups of elements. Example: <div id="header" class="main-section"></div>.
+
+=== 
+Question: What is the <iframe> tag?
+
+Answer: 
+The <iframe> tag allows you to embed another HTML document or external resource into the current page. It uses the src attribute to specify the source. Example: <iframe src="https://example.com"></iframe>. Iframes are commonly used for embedding videos, maps, or other sites.
+
+=== 
+Question: How do you embed video and audio in HTML?
+
+Answer: 
+Use the <video> and <audio> tags. Example for video:
+<video controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+Example for audio:
+<audio controls>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+=== 
+Question: What are ARIA attributes?
+
+Answer: 
+ARIA (Accessible Rich Internet Applications) attributes enhance accessibility for users with assistive technologies. Common ARIA attributes include aria-label, aria-hidden, and role. They help screen readers interpret dynamic content and UI controls correctly.
+
+=== 
+Question: What is the <!DOCTYPE html> declaration?
+
+Answer: 
+The <!DOCTYPE html> declaration tells the browser that the document is written in HTML5. It must appear as the first line in an HTML document and helps ensure the browser renders the page in standards mode.
+
+=== 
+Question: What are HTML5 input types?
+
+Answer: 
+HTML5 introduced various input types to improve form usability and validation, such as email, number, url, date, color, range, and search. These enhance the user experience by using appropriate keyboards on mobile and providing built-in validation.
+
+=== 
+Question: What is the role of <head> tag?
+
+Answer: 
+The <head> element contains metadata about the document including title, meta tags, links to CSS and scripts. It does not display content on the page. Common children of <head> include <title>, <meta>, <link>, <style>, and <script>.
+
+=== 
+Question: How do you validate forms in HTML?
+
+Answer: 
+HTML5 provides built-in validation using attributes like required, pattern, min, max, and type. Browsers show error messages if inputs are invalid. Example: <input type="email" required> will trigger an error if the field is empty or the format is incorrect.
+
+=== 
+Question: What are data-* attributes?
+
+Answer: 
+Data attributes allow custom information to be stored in HTML elements using the format data-key="value". These can be accessed in JavaScript using dataset. Example: <div data-user-id="123">User</div>.
+
+=== 
+Question: What is the <fieldset> and <legend> tag?
+
+Answer: 
+The <fieldset> tag groups related form elements together, and <legend> provides a caption for the group. These elements improve accessibility and form organization. Example:
+<fieldset>
+  <legend>Billing Info</legend>
+  <input type="text" name="cardNumber">
+</fieldset>
+
+=== 
+Question: What is the <canvas> tag in HTML?
+
+Answer: 
+The <canvas> tag is used to draw graphics, such as shapes, lines, and images, via JavaScript. It provides a blank drawing area in the browser.
+
+Example:
+<canvas id="myCanvas" width="200" height="100"></canvas>
+
+To draw, use the 2D rendering context:
+```javascript
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "red";
+ctx.fillRect(10, 10, 150, 75);
+
+Question: What is the <svg> tag in HTML?
+
+Answer:
+<svg> stands for Scalablesumma Vector Graphics. It allows you to define vector-based graphics in XML syntax directly in HTML.
+
+Example:
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+Question: What is the <picture> tag in HTML?
+
+Answer:
+The <picture> tag allows you to define multiple versions of an image for responsive layouts based on screen size or resolution.
+
+Example:
+
+<picture>
+  <source srcset="img-large.jpg" media="(min-width: 800px)">
+  <source srcset="img-small.jpg" media="(max-width: 799px)">
+  <img src="img-default.jpg" alt="Example image">
+</picture>
+

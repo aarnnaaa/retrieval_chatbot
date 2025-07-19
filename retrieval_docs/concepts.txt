@@ -1,0 +1,59 @@
+Course: JavaScript Mastery Bootcamp
+Description: A hands-on, beginner-friendly course to learn modern JavaScript (ES6+) for web development. Covers DOM manipulation, event handling, and async programming.
+Price: $99
+Duration: 6 weeks
+Format: Online (self-paced with mentor support)
+Target Audience: Beginners in web development, students, and frontend enthusiasts.
+Key Features: Project-based learning, GitHub portfolio, lifetime access, quizzes, and certificate.
+
+Course: Advanced Python for Data Science
+Description: This course dives into Python libraries like NumPy, Pandas, Matplotlib, and Scikit-Learn. Focus on real-world data analysis, visualization, and machine learning workflows.
+Price: $149
+Duration: 8 weeks
+Format: Online (live + recorded sessions)
+Target Audience: Intermediate Python users, aspiring data scientists, engineers.
+Key Features: Hands-on datasets, capstone project, weekly mentorship, job prep support.
+
+Course: Full Stack Web Development with MERN
+Description: Learn to build end-to-end web applications using MongoDB, Express.js, React.js, and Node.js. Includes deployment on cloud platforms.
+Price: $199
+Duration: 10 weeks
+Format: Blended (live + recorded + 1-on-1 coaching)
+Target Audience: Students with some programming knowledge, career switchers.
+Key Features: Real client projects, resume review, GitHub guidance, mock interviews.
+
+Course: Python for Automation and Scripting
+Description: Automate boring tasks like file handling, web scraping, and report generation using Python. Great for IT professionals and researchers.
+Price: $89
+Duration: 4 weeks
+Format: Online (self-paced)
+Target Audience: Analysts, engineers, QA testers.
+Key Features: Script library, code samples, automation cheat sheet, mini-projects.
+
+Course: Introduction to Cloud Computing with AWS
+Description: Learn cloud fundamentals, core AWS services (EC2, S3, Lambda), and build your first cloud-native applications.
+Price: $129
+Duration: 5 weeks
+Format: Online (live sessions + labs)
+Target Audience: Beginners in cloud, developers, and students.
+Key Features: Hands-on AWS Console access, cloud resume project, quiz bank, certification guidance.
+Course: Introduction to Java Programming
+Description: Learn Java from the ground up—covering core concepts like OOP, exception handling, collections, and build your first Java-based applications.
+Price: $119
+Duration: 6 weeks
+Format: Online (live sessions + coding labs)
+Target Audience: Programming beginners, CS students, and aspiring backend developers.
+Key Features: IntelliJ/VS Code setup guidance, hands-on projects (banking system, library manager), real-world exercises, quiz bank, career and certification roadmap.
+Course: Containerization with Docker
+Description: Learn how to containerize applications using Docker. Master images, containers, Dockerfiles, volumes, and networks. Deploy your first microservice-based app.
+Price: $99
+Duration: 4 weeks
+Format: Online (live sessions + hands-on labs)
+Target Audience: Developers, DevOps beginners, and CS students.
+Key Features: Docker Desktop setup, real-world containerization labs, Docker Compose project, CI/CD intro, quiz bank, certification prep tips.
+Description: Master the fundamentals of SQL including SELECT, JOINs, GROUP BY, subqueries, and more. Analyze data and build your first mini data-driven application.
+Price: $89
+Duration: 4 weeks
+Format: Online (live sessions + interactive SQL playgrounds)
+Target Audience: Data enthusiasts, developers, and students new to databases.
+Key Features: Real-time query labs, ER diagram walkthroughs, mini case studies, quiz bank, and roadmap to advanced SQL/DBMS concepts.

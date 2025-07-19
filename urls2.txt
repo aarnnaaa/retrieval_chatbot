@@ -1,0 +1,15 @@
+https://www.w3schools.com/python/
+https://www.learnpython.org/
+https://www.geeksforgeeks.org/c-programming-language/
+https://www.tutorialspoint.com/cplusplus/index.htm
+https://www.geeksforgeeks.org/java/
+https://www.w3schools.com/java/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+https://react.dev/learn
+https://legacy.reactjs.org/docs/getting-started.html
+https://www.freecodecamp.org/news/tag/react/
+https://www.docker.com/101-tutorial/
+https://docs.docker.com/get-started/
+https://www.freecodecamp.org/news/the-docker-handbook/
+https://www.geeksforgeeks.org/docker-cheat-sheet-a-detailed-guide/
+
